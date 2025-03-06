@@ -12,7 +12,7 @@ export function Draggable({ props }: { props: DragProps }) {
 
   return (
     <Button ref={ref} id={props.id}>
-      draggable {props.id}
+      draggable - {props.id}
     </Button>
   )
 }

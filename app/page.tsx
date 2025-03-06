@@ -39,10 +39,10 @@ export default function Home() {
   return (
     <div onMouseMove={broadcastMouse} className="min-h-svh flex p-10 gap-8 relative">
       <DragDropProvider onDragStart={handleStart} onDragEnd={handleEnd}>
-        <Draggable key={"kukibur"} props={{ id: "nasal123", index: 0 }} />
-        <Draggable key={"kukibur2"} props={{ id: "kuk", index: 1 }} />
-        <Draggable key={"i2"} props={{ id: "i123", index: 2 }} />
-        <Draggable key={"bur2"} props={{ id: "bur", index: 3 }} />
+        <Draggable key={"A1"} props={{ id: "A1", index: 0 }} />
+        <Draggable key={"A2"} props={{ id: "A2", index: 1 }} />
+        <Draggable key={"A3"} props={{ id: "A3", index: 2 }} />
+        <Draggable key={"A4"} props={{ id: "A4", index: 3 }} />
       </DragDropProvider>
       <div id="mouse" className="absolute left-52 top-52 pointer-events-none"><MousePointer2 className="fill-amber-300"/> <div className="border rounded-sm px-1.5 translate-x-[1.25rem] translate-y-[-0.30rem] bg-amber-300">Username</div></div>
     </div>
